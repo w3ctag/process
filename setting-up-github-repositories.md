@@ -26,7 +26,7 @@ After creating the repository, change the following aspects of its settings:
 2. In the **Options** tab, under **GitHub Pages**, set the **Source**:
    * for bikeshed specs, set it to **gh-pages**
    * for respec specs, set it to **master**  (note that some older specs use `gh-pages`, but this is no longer needed; we can always use `master` as what we commit to)
-3. In the **Branches** tab, under **Branch protection rules**, choose **Add rule**.  Create a rule to matching `master`, and check the two checkboxes **Require linear history** and **Include administrators**.  (Also *consider* whether to check **Require pull request reviews before merging** or **Require status checks to pass before merging**.)
+3. In the **Branches** tab, under **Branch protection rules**, choose **Add rule**.  Create a rule matching `master`, and check the two checkboxes **Require linear history** and **Include administrators**.  (Also *consider* whether to check **Require pull request reviews before merging** or **Require status checks to pass before merging**.)
 
 ## Configuring automatic running of bikeshed
 
