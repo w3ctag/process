@@ -25,13 +25,13 @@ After creating the repository, change the following aspects of its settings:
 1. In the **Options** tab, under **Merge button**, uncheck **Allow merge commits**
 2. In the **Options** tab, under **GitHub Pages**, set the **Source**:
    * for bikeshed specs, set it to **gh-pages**
-   * for respec specs, set it to **master**  (note that some older specs use `gh-pages`, but this is no longer needed; we can always use `master` as what we commit to)
-3. In the **Branches** tab, under **Branch protection rules**, choose **Add rule**.  Create a rule matching `master`, and check the two checkboxes **Require linear history** and **Include administrators**.  (Also *consider* whether to check **Require pull request reviews before merging** or **Require status checks to pass before merging**.)
+   * for respec specs, set it to **master** or whatever the primary branch is (note that some older specs use `gh-pages`, but this is no longer needed)
+3. In the **Branches** tab, under **Branch protection rules**, choose **Add rule**.  Create a rule matching `master` (or whatever the primary branch is), and check the two checkboxes **Require linear history** and **Include administrators**.  (Also *consider* whether to check **Require pull request reviews before merging** or **Require status checks to pass before merging**.)
 
 ## Configuring automatic running of bikeshed
 
 For bikeshed specs, we set up autogeneration of the bikeshed output from the source.
-The source is (as described above) on the `master` branch,
+The source is (as described above) on the `master` branch (or whatever other name we use for the primary branch),
 and we set up automatic running of `bikeshed` to generate its output and commit it to the `gh-pages` branch.
 
 This is done by roughly following the steps in
