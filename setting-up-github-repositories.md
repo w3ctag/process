@@ -30,17 +30,19 @@ After creating the repository, change the following aspects of its settings:
 
 ## Configuring automatic running of bikeshed
 
-For bikeshed specs, we set up autogeneration of the bikeshed output from the source.
+For bikeshed specs, we set up autogeneration of the bikeshed output from the source using [GitHub Actions](https://github.com/features/actions).
 The source is (as described above) on the `master` branch (or whatever other name we use for the primary branch),
 and we set up automatic running of `bikeshed` to generate its output and commit it to the `gh-pages` branch.
+(Note that some of our existing repositories do not follow this advice and use Travis-CI for this.)
 
-This is done by roughly following the steps in
-[Domenic's gist](https://gist.github.com/domenic/ec8b0fc8ab45f39403dd),
-(though it's worth looking at the version history of that gist since the older versions had more detail in some ways).
-It may be useful to copy the 
-[`deploy-gh-pages.sh` in `design-principles`](https://github.com/w3ctag/design-principles/blob/master/deploy-gh-pages.sh).
+To set this up in your repository, follow these steps:
 
-**TODO**: Expand on this the next time one of us does it.
+1. Add this [Makefile](Makefile.example) to your repository and name it `Makefile`.
+2. Create a `.github/workflows/` directory and put [deploy.yml](deploy.yml) in it.
+
+If the primary branch of your repository is not named `master`, you'll need to edit `deploy.yml` to reflect this.
+
+Note that these two files assume the build directory (where the built HTML goes) is named `build`. If you want to call it something else (e.g. `out`), you'll have to update both your `Makefile` and `deploy.yml`.
 
 ## Configuring PR Preview
 
