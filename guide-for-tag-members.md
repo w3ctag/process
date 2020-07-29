@@ -185,3 +185,16 @@ We all attend [W3C TPAC](https://www.w3.org/2019/09/TPAC/), so that we directly 
 
 We normally have brief TAG meetings, usually at the beginning and the end of the week, so that we can coordinate what we will attend and try to cover as many groups as possible. 
 
+## Access to systems
+
+New TAG members need access to a bunch of systems:
+
+* we communicate on Slack; ask any existing TAG member to invite you.
+* we also have a Riot instance, though we don't use it as much.  Ask Peter (?) to invite you.
+* we keep two versions of the TAG meeting calendar:
+  * there's a calendar on Peter's server.  Ask Peter for access credentials.  There's also a [readonly ICS link](https://cal.w3ctag.org/public.php/tag/calendar.ics).
+  * in Google Calendar you can add the w3ctag (use that email address at gmail) calendar; ask Dan if you want write access; there's an [readonly ICS link](https://calendar.google.com/calendar/ical/w3ctag%40gmail.com/public/basic.ics) too
+* in your [w3c account](https://www.w3.org/Systems/db/memUser) go to "Connected accounts", make sure your github account is linked
+* Get yourself invited to the [w3ctag](https://github.com/w3ctag) github organization, and accept the invite.  You can [make your membership public](https://github.com/orgs/w3ctag/people) if you want.  Then get yourself added to https://github.com/orgs/w3ctag/teams/tag .  Any current TAG member should be able to do this.
+* Get yourself invited to the [w3c](https://github.com/w3c) GitHub organization, and accept the invite.  You can [make your membership public](https://github.com/orgs/w3c/people) if you want.  This (plus the account linking above) should mean you're automatically added to https://github.com/orgs/w3c/teams/w3c-group-100-members/members .  The invite should be doable by any W3C staff.
+* Ask Dan for tweetdeck access to the [TAG twitter account](https://twitter.com/w3ctag) if you want
