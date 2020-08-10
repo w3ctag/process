@@ -6,9 +6,9 @@ Write for an audience of someone who learned English at 20,
 is under a pressing deadline, and has a migraine.
 
 Don't write for your friends and colleagues
-who already understand your advice. 
+who already understand your advice.
 Don't write for the audience of your blog.
-Definitely don't write for the teacher 
+Definitely don't write for the teacher
 who marked generously for big words.
 
 ### Get to the point
@@ -34,16 +34,16 @@ express the time measurement in milliseconds."
 
 rather than
 
-> "Time measurement values in APIs should be 
+> "Time measurement values in APIs should be
 expressed in milliseconds [by zombies]"
 
 
 ### Trim your word count
 
-Write your first draft, 
+Write your first draft,
 then cut words ruthlessly.
 
-Cut out any unnecessary detail or opinion, 
+Cut out any unnecessary detail or opinion,
 and any unnecessary phrases like "it may be considered that".
 
 If it's too long, it becomes physically painful to read,
@@ -68,19 +68,19 @@ and probably shouldn't be longer than three.
 
 ### Don't use unnecessarily obscure language.
 
-Unless a technical term of art is absolutely necessary, 
+Unless a technical term of art is absolutely necessary,
 try to find a simpler way to express your ideas.
 
 In many cases, this involves being more specific or direct,
 which also makes it easier to understand.
 
-Compare: 
+Compare:
 
-> Thus, for time stamps that do not need to correspond to an absolute time, consider using DOMHighResTimeStamp, which provides monotonically non-decreasing sub-millisecond timestamps that are comparable within a single browsing context or web worker. 
+> Thus, for time stamps that do not need to correspond to an absolute time, consider using DOMHighResTimeStamp, which provides monotonically non-decreasing sub-millisecond timestamps that are comparable within a single browsing context or web worker.
 
 and
 
-> So, if a date-time is only used to compare timing of events, and not to show a formatted date-time value to the user, consider using DOMHighResTimeStamp instead. 
+> So, if a date-time is only used to compare timing of events, and not to show a formatted date-time value to the user, consider using DOMHighResTimeStamp instead.
 
 Note that you can replace "Thus" or "Therefore" with "So" in many cases as well.
 
@@ -113,13 +113,16 @@ See also:
 
 ### Use inclusive language
 
-* Use "they", "them", "their" etc. 
+* Use "they", "them", "their" etc.
   instead of "he", "she", "he or she" and related pronouns,
   unless referring to a specific person.
   * If referring to a specific person,
     respect whatever pronouns they use for themselves.
+  * If you're not used to "they" referring to a single person,
+    the [Wikipedia article](https://en.wikipedia.org/wiki/Singular_they)
+    has a good, succinct introduction.
 * Avoid ableist metaphors,
-  i.e. anything which uses a term referring to a person's 
+  i.e. anything which uses a term referring to a person's
   physical or mental ability or disability as a metaphor.
 * Avoid racist metaphors,
   including anything that might be interpreted as a reference to skin colors
