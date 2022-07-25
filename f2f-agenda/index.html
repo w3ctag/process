@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div mv-app="w3ctag_breakouts" mv-plugins="gsheets" mv-bar="none"
+<div mv-app="w3ctag_agenda" mv-plugins="gsheets" mv-bar="none"
 	mv-source="https://docs.google.com/spreadsheets/d/1D7low9ygKMXzzFcClTh5Q75JQwHTLdzpW0qPv1BSsUU/edit#gid=5918668"
 	mv-source-sheet="[url('f2f') or 'Hybrid']">
 	<div mv-multiple="rows" mv-group></div>
@@ -51,6 +51,7 @@
 							[participants]
 						</td>
 					<td>
+						<meta property="participants" content="[get(w3ctag_breakouts, slot)]" />
 						<meta property="issueCount" content="[count(issues)]" />
 						<ol>
 							<li property="issues" mv-multiple>
@@ -65,6 +66,20 @@
 			</tbody>
 		</table>
 	</main>
+</div>
+
+<div hidden mv-app="w3ctag_breakouts" mv-plugins="gsheets" mv-bar="none"
+	mv-source="https://docs.google.com/spreadsheets/d/1D7low9ygKMXzzFcClTh5Q75JQwHTLdzpW0qPv1BSsUU/edit#gid=5918668"
+	mv-source-sheet="[url('f2f') or 'Hybrid'] Person x Breakout"
+	mv-source-range="A6:X15" mv-source-options="dataInColumns">
+</div>
+
+<div mv-app="orphan_breakouts">
+	<h3>⚠️ Breakouts without topics:</h3>
+	<div mv-multiple="" mv-value="breakoutsWithoutTopics(w3ctag_breakouts, w3ctag_agenda.slot)">
+		<strong property="slot"></strong>
+		([participants])
+	</div>
 </div>
 
 <script src="https://get.mavo.io/mavo.js"></script>

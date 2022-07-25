@@ -1,3 +1,33 @@
+Mavo.hooks.add("render-start", function (env) {
+	if (this.id === "w3ctag_breakouts") {
+		let breakout_x_participants = {};
+
+		for (let row of env.data) {
+			for (let person in row) {
+				let breakout = row[person];
+
+				breakout_x_participants[breakout] ||= [];
+				if (breakout && breakout != "x" && !breakout_x_participants[breakout].includes(person)) {
+					breakout_x_participants[breakout].push(person);
+				}
+			}
+		}
+
+		env.data = breakout_x_participants;
+	}
+});
+
+function breakoutsWithoutTopics(breakout_x_participants, slotsWithTopics) {
+
+	slotsWithTopics = slotsWithTopics.map(x => Mavo.value(x));
+
+	let slotsWithPeople = Object.keys(breakout_x_participants).filter(x => !slotsWithTopics.includes(x) && x !== "undefined");
+
+	return slotsWithPeople.map(slot => ({
+		slot, participants: breakout_x_participants[slot]
+	}));
+}
+
 function getBreakouts(rows) {
 	let breakouts = {};
 
@@ -8,7 +38,6 @@ function getBreakouts(rows) {
 		if (!breakouts[slot]) {
 			o = breakouts[slot] = {
 				slot,
-				participants: [],
 				issues: []
 			};
 		}
@@ -18,16 +47,6 @@ function getBreakouts(rows) {
 			url: issue.URL,
 			comment: issue.Comments
 		});
-
-		// Get participants
-		for (let prop in issue) {
-			if (slot
-				 && issue[prop] === slot
-				 && !["Slot", "Assigned?", "Comments"].includes(prop)
-				 && !o.participants.includes(prop)) {
-				o.participants.push(prop);
-			}
-		}
 	}
 
 	return Object.values(breakouts).sort((a, b) => {
