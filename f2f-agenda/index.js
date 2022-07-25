@@ -17,8 +17,7 @@ Mavo.hooks.add("render-start", function (env) {
 	}
 });
 
-function breakoutsWithoutTopics(breakout_x_participants, slotsWithTopics) {
-
+function breakoutsWithoutIssues(breakout_x_participants, slotsWithTopics) {
 	slotsWithTopics = slotsWithTopics.map(x => Mavo.value(x));
 
 	let slotsWithPeople = Object.keys(breakout_x_participants).filter(x => !slotsWithTopics.includes(x) && x !== "undefined");
