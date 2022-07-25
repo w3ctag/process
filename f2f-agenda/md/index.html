@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TAG F2F breakouts</title>
+	<link rel="stylesheet" href="https://get.mavo.io/mavo.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div mv-app="w3ctag_breakouts" mv-plugins="gsheets" mv-bar="none"
+	mv-source="https://docs.google.com/spreadsheets/d/1Go9lJw9aIH-YonGWUgX33_eB2Yw-xqtIDq9d23Lef0o/edit#gid=398651475"
+	mv-source-sheet="[url('f2f') or 'Hybrid']">
+	<div mv-multiple="rows" mv-group></div>
+
+	<main>
+		<h2>## <strong>[count(breakout)]</strong> breakouts and <strong>[sum(issueCount)]</strong> issues</h2>
+
+		<section mv-multiple="breakout" mv-value="getBreakouts(rows)" mv-if="slot">
+			<h3>### Slot: <span property="slot"></span></h3>
+			<p>Participants: [participants]</p>
+
+				<meta property="issueCount" content="[count(issues)]" />
+
+					<div property="issues" mv-multiple>
+						[$index + 1].
+						<a property="url" target="_blank">
+							[<span property="name"></span>]([url])
+						</a>
+<!-- 						<span property="comment"></span> -->
+					</div>
+
+			</td>
+		</section>
+	</main>
+</div>
+
+<script src="https://get.mavo.io/mavo.js"></script>
+<script src="../index.js"></script>
+
+</body>
+</html>
