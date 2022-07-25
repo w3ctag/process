@@ -1,0 +1,83 @@
+body {
+	position: relative;
+	font: 100%/1.5 Helvetica Neue, Segoe UI, sans-serif;
+}
+
+a {
+	color: hsl(220 40% 40%);
+	text-decoration-color: hsl(220 40% 40% / .4);
+}
+
+a:visited {
+	color: hsl(280 40% 40%);
+	text-decoration-color: hsl(280 40% 40% / .4);
+}
+
+[mv-multiple="rows"] {
+	display: none;
+}
+
+[mv-app] {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-gap: 0 1em;
+}
+
+fieldset {
+	position: sticky;
+	top: 1em;
+	border: none;
+	background: hsl(220 10% 94%);
+	border-radius: .2em;
+}
+
+fieldset > select {
+	width: 100%;
+	font: inherit;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 300%;
+	margin-top: 0;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	text-align: left;
+}
+
+td {
+	padding: .5rem 0;
+	vertical-align: top;
+	border-top: 1px solid hsl(220 10% 70%);
+}
+
+td:first-child {
+	font-size: 300%;
+	font-weight: bold;
+	line-height: 1;
+	letter-spacing: -.03em;
+	color: hsl(220 10% 50%)
+}
+
+td:first-child:empty::before {
+	content: "(Unsorted)";
+	font-style: italic;
+	font-size: 50%;
+	opacity: .6;
+}
+
+td ol {
+	margin: 0;
+	padding: 0;
+}
+
+[property="comment"] {
+	font-size: smaller;
+	opacity: .7;
+	font-style: italic;
+}

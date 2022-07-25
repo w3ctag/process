@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TAG F2F breakouts</title>
+	<link rel="stylesheet" href="https://get.mavo.io/mavo.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Use this with ?f2f=Hybrid if the sheet is called Hybrid -->
+<div mv-app="w3ctag_breakouts" mv-plugins="gsheets" mv-bar="none"
+	mv-source="https://docs.google.com/spreadsheets/d/1D7low9ygKMXzzFcClTh5Q75JQwHTLdzpW0qPv1BSsUU/edit#gid=5918668"
+	mv-source-sheet="[url('f2f') or 'Hybrid']">
+	<div mv-multiple="rows" mv-group></div>
+	<aside>
+		<fieldset>
+			<legend>Filter by participant <button mv-action="set(filterParticipants, null)">❌</button></legend>
+			<select multiple property="filterParticipants" size="[count(filterParticipant)]">
+				<option mv-multiple="filterParticipant" mv-value="unique(participants)"></option>
+			</select>
+			<meta property="filterParticipantsList" content="[split(filterParticipants, ',')]">
+			<div hidden="[count(filterParticipantsList) < 2]">
+				<label>
+					<input type="radio" property name="anyorall" value="any" checked>
+					Any
+				</label>
+				<label>
+					<input type="radio" name="anyorall" value="all">
+					All
+				</label>
+			</div>
+		</fieldset>
+	</aside>
+	<main>
+		<h2><strong>[count(shown)]</strong> breakouts and <strong>[sum(issueCount where shown)]</strong> issues shown</h2>
+		<table>
+			<thead>
+				<th>Breakout</th>
+				<th>Participants</th>
+				<th>Issues</th>
+			</thead>
+			<tbody>
+				<tr mv-multiple="breakout" mv-value="getBreakouts(rows)"
+					hidden="[!shown]">
+					<td property="slot"></td>
+					<td>
+
+						<meta property="shown" datatype="boolean" content="[!filterParticipants or count(intersection(filterParticipantsList, participants)) >= if(anyorall = 'all', count(filterParticipantsList), 1)]">
+							[participants]
+						</td>
+					<td>
+						<meta property="issueCount" content="[count(issues)]" />
+						<ol>
+							<li property="issues" mv-multiple>
+								<a property="url" target="_blank">
+									<span property="name"></span>
+								</a>
+								<div property="comment"></div>
+							</li>
+						</ol>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
+</div>
+
+<script src="https://get.mavo.io/mavo.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
