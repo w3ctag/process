@@ -18,7 +18,9 @@
 		<fieldset>
 			<legend>Filter by participant <button mv-action="set(filterParticipants, null)">❌</button></legend>
 			<select multiple property="filterParticipants" size="[count(filterParticipant)]">
-				<option mv-multiple="filterParticipant" mv-value="unique(participants)"></option>
+				<optgroup mv-list mv-value="list(unique(participants), '')" label="Participants">
+					<option mv-list-item="filterParticipant" selected="[false]"></option>
+				</optgroup>
 			</select>
 			<meta property="filterParticipantsList" content="[split(filterParticipants, ',')]">
 			<div hidden="[count(filterParticipantsList) < 2]">
