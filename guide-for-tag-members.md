@@ -58,7 +58,7 @@ Optionally, when a design review comes in, a TAG member may mark it as
 `fast track?` and alert other TAG members. Fast track reviews are reviews
  that would be proposed to not take up call time. It’s up to the TAG member
 proposing fast track status to indicate what outcome they think the
-review should have. E.g. “This doesn’t need a review. It’s a small
+review should have and why it should be fast tracked. E.g. “This doesn’t need a review. It’s a small
 change to a spec we’ve already reviewed with no architectural issues.
 Suggested outcome: Resolution: Satisfied”. They should also add
 themselves to the issue and add a “Fast track?” label. If it gets at least 
