@@ -55,7 +55,7 @@ Design reviews are generally requested by spec authors, spec editors or group ch
 #### Fast Track
 
 Optionally, when a design review comes in, a TAG member may mark it as 
-`fast track?` and alert other TAG members. Fast track reviews are reviews
+[Fast track?](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+label%3A%22Fast+track%3F%22+) and alert other TAG members. Fast track reviews are reviews
  that would be proposed to not take up call time. It’s up to the TAG member
 proposing fast track status to indicate what outcome they think the
 review should have and why it should be fast tracked. E.g. “This doesn’t need a review. It’s a small
