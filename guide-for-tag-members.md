@@ -74,6 +74,10 @@ We occasionally describe findings in plain language with a blog post, like [this
 
 ## How we work
 
+### Key Technical Topics
+
+As of our December 2024 Face-to-face, we are trying to capture and organize our work into key technical topic areas, which are listed on GitHub [in a project board](https://github.com/orgs/w3ctag/projects/5). This is a work in progress.
+
 ### Working with the web community
 
 Most of our interaction with the web community happens on Github, either in our repos or in the repos of features we are helping.
