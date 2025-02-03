@@ -10,7 +10,7 @@ This document explains how we work and what you can expect.
 
 The mission of the TAG is defined by the W3C process:
 
-* [World Wide Web Consortium Process Document](http://www.w3.org/Consortium/Process/#TAG)
+* [World Wide Web Consortium Process Document](https://www.w3.org/Consortium/Process/#TAG)
 
 This document defines the mission of the TAG as follows:
 1. to document and build consensus around principles of Web architecture and to interpret and clarify these principles when necessary;
@@ -26,6 +26,7 @@ To achieve that, the TAG produce several kinds of work, as outlined below:
 As the TAG have an overview of all the technologies produced at W3C, through its design reviews(#design-reviews), it is in a perfect position to identify possible mismatches and deeper architectural issues. 
 The TAG is also reviewing specifications coming from other organisations, like IETF, TC39 or WhatWG when requested.
 
+Members of the TAG are part of [W3C Councils](https://www.w3.org/policies/process/#w3c-council) handling [Submission Appeals](https://www.w3.org/policies/process/#SubmissionNo) and [Formal Objections](https://www.w3.org/policies/process/#FormalObjection). See [Councils Guide](https://www.w3.org/guide/council/council.html)
 
 ## What we produce 
 
