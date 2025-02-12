@@ -28,6 +28,8 @@ The TAG is also reviewing specifications coming from other organisations, like I
 
 Members of the TAG are part of [W3C Councils](https://www.w3.org/policies/process/#w3c-council) handling [Submission Appeals](https://www.w3.org/policies/process/#SubmissionNo) and [Formal Objections](https://www.w3.org/policies/process/#FormalObjection). See [Councils Guide](https://www.w3.org/guide/council/council.html)
 
+Also, as member of an [elected group](https://www.w3.org/policies/process/#elected-groups), you are subject to [communication guidelines](https://www.w3.org/guide/other/elected-body-communication-guidelines.html)
+
 ## What we produce 
 
 ### Design reviews
