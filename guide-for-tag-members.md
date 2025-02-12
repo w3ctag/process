@@ -26,7 +26,9 @@ To achieve that, the TAG produce several kinds of work, as outlined below:
 As the TAG have an overview of all the technologies produced at W3C, through its design reviews(#design-reviews), it is in a perfect position to identify possible mismatches and deeper architectural issues. 
 The TAG is also reviewing specifications coming from other organisations, like IETF, TC39 or WhatWG when requested.
 
-Members of the TAG are part of [W3C Councils](https://www.w3.org/policies/process/#w3c-council) handling [Submission Appeals](https://www.w3.org/policies/process/#SubmissionNo) and [Formal Objections](https://www.w3.org/policies/process/#FormalObjection). See [Councils Guide](https://www.w3.org/guide/council/council.html)
+Members of the TAG are part of [W3C Councils](https://www.w3.org/policies/process/#w3c-council) handling [Submission Appeals](https://www.w3.org/policies/process/#SubmissionNo) and [Formal Objections](https://www.w3.org/policies/process/#FormalObjection); see [Councils Guide](https://www.w3.org/guide/council/council.html).
+
+As member of an [elected group](https://www.w3.org/policies/process/#elected-groups), TAG participants are expected to follow a set of [communication guidelines](https://www.w3.org/guide/other/elected-body-communication-guidelines.html).
 
 ## What we produce 
 
