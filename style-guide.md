@@ -127,3 +127,6 @@ See also:
 * Avoid racist metaphors,
   including anything that might be interpreted as a reference to skin colors
   or allusions to racialized historical events.
+* Talk about "people" rather than "users" when that's unambiguous.
+  When talking about the people using a particular system or program,
+  it's fine to talk about "that system's users".
