@@ -141,6 +141,6 @@ New TAG members need access to a bunch of systems:
 
 * we communicate on Slack; ask any existing TAG member to invite you.
 * we make use of the W3C calendar system
-* in your [w3c account](https://www.w3.org/Systems/db/memUser) go to "Connected accounts", make sure your github account is linked
+* in your [W3C account](https://www.w3.org/users/myprofile/) go to [Connected accounts](https://www.w3.org/users/myprofile/connectedaccounts/), make sure your github account is linked
 * Get yourself invited to the [w3ctag](https://github.com/w3ctag) github organization, and accept the invite.  You can [make your membership public](https://github.com/orgs/w3ctag/people) if you want.  Then get yourself added to https://github.com/orgs/w3ctag/teams/tag .  Any current TAG member should be able to do this.
 * Get yourself invited to the [w3c](https://github.com/w3c) GitHub organization, and accept the invite.  You can [make your membership public](https://github.com/orgs/w3c/people) if you want.  This (plus the account linking above) should mean you're automatically added to https://github.com/orgs/w3c/teams/w3c-group-100-members/members .  The invite should be doable by any W3C staff.
