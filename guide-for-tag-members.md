@@ -121,7 +121,7 @@ Each of us should allocate some time (at least three hours beyond the meeting ti
 
 While some of us use "AI" tools to help with our work,
 everything we send to another human was written by a human.
-We do use machine translation and proofreading when we're not native speakers of the target language,
+We do use machine translation and proofreading tools,
 and we do use autocomplete to predict the rest of a word or two,
 but we do not generate whole sentences that then have to be checked for accuracy and redundancy.
 
