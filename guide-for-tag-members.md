@@ -117,6 +117,14 @@ Each of us should allocate some time (at least three hours beyond the meeting ti
 * Keeping up with our github repos — looking for new issues, big discussions that blow up
 * Participating in our own issues and discussions on Github
 
+#### Using "AI"
+
+While some of us use "AI" tools to help with our work,
+everything we send to another human was written by a human.
+We do use machine translation and proofreading tools,
+and we do use autocomplete to predict the rest of a word or two,
+but we will not generate whole sentences that then have to be checked for accuracy and redundancy.
+
 ### Face-to-face (F2F) meetings
 
 Occationally we will meet face-to-face for three days to work together.
