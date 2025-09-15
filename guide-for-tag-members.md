@@ -123,7 +123,7 @@ While some of us use "AI" tools to help with our work,
 everything we send to another human was written by a human.
 We do use machine translation and proofreading tools,
 and we do use autocomplete to predict the rest of a word or two,
-but we do not generate whole sentences that then have to be checked for accuracy and redundancy.
+but we will not generate whole sentences that then have to be checked for accuracy and redundancy.
 
 We also strive to read the whole explainer for features we're asked to review.
 If an explainer needs to be summarized in order to take a reasonable time to review,
