@@ -125,10 +125,6 @@ We do use machine translation and proofreading tools,
 and we do use autocomplete to predict the rest of a word or two,
 but we will not generate whole sentences that then have to be checked for accuracy and redundancy.
 
-We also strive to read the whole explainer for features we're asked to review.
-If an explainer needs to be summarized in order to take a reasonable time to review,
-we ask the proponents to do that instead of trusting an "AI" not to miss important pieces.
-
 ### Face-to-face (F2F) meetings
 
 Occationally we will meet face-to-face for three days to work together.
