@@ -50,31 +50,31 @@ We tend to look for issues like:
 
 #### Lifecycle of a Design Review
 
-Design reviews are generally requested by spec authors, spec editors or group chairs. They are asking us to provide useful review feedback that aids the design of the spec in question. We then close the review issue once that feedback has been received and ideally acted upon. 
+Design reviews are generally requested by spec authors, spec editors or group chairs. They are asking us to provide useful review feedback that aids the design of the spec in question. We then close the review issue once that feedback has been received and ideally acted upon.
 
-Requestors fill in one of the [templates](https://github.com/w3ctag/design-reviews/tree/main/.github/ISSUE_TEMPLATE) (early design review, design review, or dispute resolution). These are initially marked as untriaged. We will triage these untriaged issues at least once a week during the regular plenary calls. 
+Requestors fill in one of the [templates](https://github.com/w3ctag/design-reviews/tree/main/.github/ISSUE_TEMPLATE) (early design review, design review, or dispute resolution). These are initially marked as untriaged. We will triage these untriaged issues at least once a week during the regular plenary calls.
 
-The design review templates ask the requestors to give us an [explainer](https://w3ctag.github.io/explainer-explainer/#introduction), fill in answers to the [Security and Privacy Questionnaire](https://www.w3.org/TR/security-privacy-questionnaire/) and indicate that they have read the [Design Principles](https://www.w3.org/TR/design-principles) document. Once we have the information we need, we can decide how to fit this in with the rest of our work (which we call “triage”). 
+The design review templates ask the requestors to give us an [explainer](https://w3ctag.github.io/explainer-explainer/#introduction), fill in answers to the [Security and Privacy Questionnaire](https://www.w3.org/TR/security-privacy-questionnaire/) and indicate that they have read the [Design Principles](https://www.w3.org/TR/design-principles) document. Once we have the information we need, we can decide how to fit this in with the rest of our work (which we call “triage”).
 
 The triage process involves assigning ideally two or more people to work on the issue. We assign labels to give us simple info about the issue now and in the future, looking especially at:
 
 * the topic or work area
 * where it is in our process (with `Progress:` or `Resolution:` labels)
-* its priority in our work (we use `Agenda+` to bring something to the top of an agenda). 
+* its priority in our work (we use `Agenda+` to bring something to the top of an agenda).
 
 We might also decline a request for a number of reasons, including that the design doesn’t impact the architecture of the web or we don’t have the bandwidth to handle it.
 
-TAG chairs prepare agendas for each week, based on the priority we’ve assigned during triage and the weekly meetings that each TAG member/associate attends. We work on these reviews both outside of our calls, asynchronously (using Slack and our private brainstorming repository in Github) — and during the calls themselves. 
+TAG chairs prepare agendas for each week, based on the priority we’ve assigned during triage and the weekly meetings that each TAG member/associate attends. We work on these reviews both outside of our calls, asynchronously (using Slack and our private brainstorming repository in Github) — and during the calls themselves.
 
 Sometimes it takes substantial discussion with the requestors to come to a conclusion. We may keep the discussion in the Github issue, ask a TAG member or associate to speak to them directly, or invite them to join us for a call.
 
 Our feedback represents our experience of similar situations, our understanding of other parts of the web that may be affected, and everything we’ve documented in our findings and guides.
 
-We are careful to say things like “Not speaking as a TAG member”, “In my own opinion” or “This is not TAG consensus” where we are expressing our own opinions in the issue. When we have TAG consensus on how to respond to the request (and consensus may be informal, sometimes just making sure to contact TAG members/associates who we know will have other views), we post it on the issue. 
+We are careful to say things like “Not speaking as a TAG member”, “In my own opinion” or “This is not TAG consensus” where we are expressing our own opinions in the issue. When we have TAG consensus on how to respond to the request (and consensus may be informal, sometimes just making sure to contact TAG members/associates who we know will have other views), we post it on the issue.
 
-When the members of a breakout group decide the issue can be closed, the issue is marked with the label `Progress: propose closing`. We review the Propose closing issues during plenary calls to make formal decisions to close the issue (ending the discussion), and to agree an appropriate label for our resolution. 
+When the members of a breakout group decide the issue can be closed, the issue is marked with the label `Progress: propose closing`. We review the Propose closing issues during plenary calls to make formal decisions to close the issue (ending the discussion), and to agree an appropriate label for our resolution.
 
-We try to remain friendly, helpful and thorough throughout the discussion. We don’t have any formal authority, and requesters are always welcome to ignore what we say — so our best way to have an impact is to provide useful, actionable and timely feedback. 
+We try to remain friendly, helpful and thorough throughout the discussion. We don’t have any formal authority, and requesters are always welcome to ignore what we say — so our best way to have an impact is to provide useful, actionable and timely feedback.
 
 ### Findings
 
