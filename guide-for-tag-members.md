@@ -50,7 +50,31 @@ We tend to look for issues like:
 
 #### Lifecycle of a Design Review
 
-Design reviews are generally requested by spec authors, spec editors or group chairs.  The goal of a design review is to provide useful review feedback that aids the deisgn of the spec in question and to close the review issue once that feedback has been received and ideally acted upon.  Requestors fill in one of the templates (early design review, design review, or dispute resolution). These are initially marked as untriaged. TAG will triage these untriaged issues at least once a week during the regular plenary calls.  Requestors will also be asked to create an explainer, fill in answers to the privacy & security questionnaire, and indicate that they have read the Design Principles document.  The triage process involves assigning ideally 2+ people to work on the issue going forward, assigning labels as appropriate and assigning a **milestone**. In the design review repo we use milestones to indicate which week in the future we will discuss (and ideally try to resolve) this issue.  Once assigned to a milestone (week), that issue will become part of the agenda for that week and will be assigned to a breakout based on who is assigned to the issue.  During the breakout call, the issue will be discussed and progressed towards resolution.  TAG members will write feedback on the issue and review comments and feedback that have been left on the issue, leave feedback on the issues for the spec in question, etc... We also have a "private repo" for draft comments that allows us to collaborate asynchronously on more substantive feedback when needed. We will look for signals that the feedback has been received and understood and ideally acted upon.  When the members of a breakout group decide the issue can be closed, the issue is marked as "propose closed" (with a label).  We will then review during the read-outs section of the plenary call for that week and take a decision to close and what resolution label to mark it with (e.g. resolution: satisfied).  One of the owners of the issue will generally write a closing comment and close the issue.  During this process it may sometimes be necessary to have more detailed discussions with the requestors of the review - e.g. by inviting them to a breakout.
+Design reviews are generally requested by spec authors, spec editors or group chairs. They are asking us to provide useful review feedback that aids the design of the spec in question. We then close the review issue once that feedback has been received and ideally acted upon.
+
+Requestors fill in one of the [templates](https://github.com/w3ctag/design-reviews/tree/main/.github/ISSUE_TEMPLATE) (early design review, design review, or dispute resolution). These are initially marked as untriaged. We will triage these untriaged issues at least once a week during the regular plenary calls.
+
+The design review templates ask the requestors to give us an [explainer](https://w3ctag.github.io/explainer-explainer/#introduction), fill in answers to the [Security and Privacy Questionnaire](https://www.w3.org/TR/security-privacy-questionnaire/) and indicate that they have read the [Design Principles](https://www.w3.org/TR/design-principles) document. Once we have the information we need, we can decide how to fit this in with the rest of our work (which we call “triage”).
+
+The triage process involves assigning ideally two or more people to work on the issue. We assign labels to give us simple info about the issue now and in the future, looking especially at:
+
+* the topic or work area
+* where it is in our process (with `Progress:` or `Resolution:` labels)
+* its priority in our work (we use `Agenda+` to bring something to the top of an agenda).
+
+We might also decline a request for a number of reasons, including that the design doesn’t impact the architecture of the web or we don’t have the bandwidth to handle it.
+
+TAG chairs prepare agendas for each week, based on the priority we’ve assigned during triage and the weekly meetings that each TAG member/associate attends. We work on these reviews both outside of our calls, asynchronously (using Slack and our private brainstorming repository in Github) — and during the calls themselves.
+
+Sometimes it takes substantial discussion with the requestors to come to a conclusion. We may keep the discussion in the Github issue, ask a TAG member or associate to speak to them directly, or invite them to join us for a call.
+
+Our feedback represents our experience of similar situations, our understanding of other parts of the web that may be affected, and everything we’ve documented in our findings and guides.
+
+We are careful to say things like “Not speaking as a TAG member”, “In my own opinion” or “This is not TAG consensus” where we are expressing our own opinions in the issue. When we have TAG consensus on how to respond to the request (and consensus may be informal, sometimes just making sure to contact TAG members/associates who we know will have other views), we post it on the issue.
+
+When the members of a breakout group decide the issue can be closed, the issue is marked with the label `Progress: propose closing`. We review the Propose closing issues during plenary calls to make formal decisions to close the issue (ending the discussion), and to agree an appropriate label for our resolution.
+
+We try to remain friendly, helpful and thorough throughout the discussion. We don’t have any formal authority, and requesters are always welcome to ignore what we say — so our best way to have an impact is to provide useful, actionable and timely feedback.
 
 ### Findings
 
@@ -64,11 +88,11 @@ We keep a [list of findings](https://tag.w3.org/findings/) on our website.
 When we decide that it would be helpful for spec authors or implementors to have additional information on something tricky, we write a guide.
 These often come from trends we identify through our design reviews.
 
-Our core guidlines document is the [Web Platform Design Principles](https://www.w3.org/TR/design-principles).
+Our core guidelines document is the [Web Platform Design Principles](https://www.w3.org/TR/design-principles).
 
 Some of our guidelines documents may be produced in task forces with other groups or individuals, such as our [Privacy Principles](https://www.w3.org/TR/privacy-principles/).
 
-We havs also recently produced an [Ethical Web Principles](https://www.w3.org/TR/ethical-web-principles) document which provides some high-level guidance and seeks to inform our more actionable guidance. We have also reated W3C notes especially in collaboration with working groups, like the [Security and Privacy Questionnaire](https://www.w3.org/TR/security-privacy-questionnaire/).
+We have also recently produced an [Ethical Web Principles](https://www.w3.org/TR/ethical-web-principles) document which provides some high-level guidance and seeks to inform our more actionable guidance. We have also related W3C notes especially in collaboration with working groups, like the [Security and Privacy Questionnaire](https://www.w3.org/TR/security-privacy-questionnaire/).
 
 ### Blog posts
 
@@ -98,7 +122,7 @@ We also have face-to-face weeks, which interrupt the cycle — and are in the ne
 
 ### Each TAG member attends 2 breakouts
 
-We currently have 3 breakout sessions each week to accomodate different time zones. These breakouts happen over video call and are organized via the W3C calendar system. TAG members should try to attend 2 out of the 3.
+We currently have 3 breakout sessions each week to accommodate different time zones. These breakouts happen over video call and are organized via the W3C calendar system. TAG members should try to attend 2 out of the 3.
 
 ### Plenary meeting - for all TAG members
 
@@ -127,7 +151,7 @@ but we will not generate whole sentences that then have to be checked for accura
 
 ### Face-to-face (F2F) meetings
 
-Occationally we will meet face-to-face for three days to work together.
+Occasionally we will meet face-to-face for three days to work together.
 
 We create the agenda for that time at the beginning of the meeting.
 
@@ -135,11 +159,11 @@ We try to alternate continents, to even out the travel for TAG members.
 
 We often host events with the local web community, either in one of the evenings or in the day before or after our meeting.
 
-We will make every effort at face-to-face meetings to accomodate remote participation.
+We will make every effort at face-to-face meetings to accommodate remote participation.
 
 ### Participating in TPAC
 
-We all tey to attend TPAC, so that we directly spend time with working groups and interest groups, to learn what they are up to and to provide more immediate feedback and support.
+We all try to attend TPAC, so that we directly spend time with working groups and interest groups, to learn what they are up to and to provide more immediate feedback and support.
 
 We normally have brief TAG meetings, usually at the beginning and the end of the week, so that we can coordinate what we will attend and try to cover as many groups as possible.
 
