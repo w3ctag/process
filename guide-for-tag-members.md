@@ -64,7 +64,7 @@ The triage process involves assigning ideally two or more people to work on the 
 
 We might also decline a request for a number of reasons, including that the design doesn’t impact the architecture of the web or we don’t have the bandwidth to handle it.
 
-TAG chairs prepare agendas for each week, based on the priority we’ve assigned during triage and the weekly meetings that each TAG member/associate attends. We work on these reviews both outside of our calls, asynchronously (using our private brainstorming repository in Github and Slack) — and during the calls themselves. 
+TAG chairs prepare agendas for each week, based on the priority we’ve assigned during triage and the weekly meetings that each TAG member/associate attends. We work on these reviews both outside of our calls, asynchronously (using Slack and our private brainstorming repository in Github) — and during the calls themselves. 
 
 Sometimes it takes substantial discussion with the requestors to come to a conclusion. We may keep the discussion in the Github issue, ask a TAG member or associate to speak to them directly, or invite them to join us for a call.
 
