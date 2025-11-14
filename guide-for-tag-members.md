@@ -54,7 +54,7 @@ Design reviews are generally requested by spec authors, spec editors or group ch
 
 Requestors fill in one of the [templates](https://github.com/w3ctag/design-reviews/tree/main/.github/ISSUE_TEMPLATE) (early design review, design review, or dispute resolution). These are initially marked as untriaged. We will triage these untriaged issues at least once a week during the regular plenary calls. 
 
-The design review templates ask the requestors to give us an [explainer](https://github.com/w3ctag/process/blob/main/guide-for-tag-members.md), fill in answers to the [Security and Privacy Questionnaire](https://www.w3.org/TR/security-privacy-questionnaire/) and indicate that they have read the [Design Principles](https://www.w3.org/TR/design-principles) document. Once we have the information we need, we can decide how to fit this in with the rest of our work (which we call “triage”). 
+The design review templates ask the requestors to give us an [explainer](https://w3ctag.github.io/explainer-explainer/#introduction), fill in answers to the [Security and Privacy Questionnaire](https://www.w3.org/TR/security-privacy-questionnaire/) and indicate that they have read the [Design Principles](https://www.w3.org/TR/design-principles) document. Once we have the information we need, we can decide how to fit this in with the rest of our work (which we call “triage”). 
 
 The triage process involves assigning ideally two or more people to work on the issue. We assign labels to give us simple info about the issue now and in the future, looking especially at:
 
