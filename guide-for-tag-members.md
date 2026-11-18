@@ -101,7 +101,6 @@ We occasionally describe findings in plain language with a blog post, like [this
 
 ## How we work
 
-
 ### Working with the web community
 
 Most of our interaction with the web community happens on Github, either in our repos or in the repos of features we are helping.
@@ -169,7 +168,8 @@ In plenary calls, we:
 - Reach consensus on design review resolutions (particularly for 
   controversial or high-impact issues).
 - Reach consensus on findings and other documents.
-- Invite spec authors, developers, and others to...[TODO]
+- Invite spec authors, developers, and others to help us understand problem 
+  areas, use cases and specifics of a proposed design.
 
 ### Agenda & Minutes
 
@@ -213,12 +213,22 @@ We normally have brief TAG meetings, usually at the beginning and the end of the
 
 ## Time off
 
-### Sick Leave
+### Sick leave
+TAG members should let the group, chairs or team contact know if they will 
+be missing meetings due to illness. A one line message in Slack is enough. 
+If members are ill for an extended period, the chairs or team contact should 
+be informed.
 
+A TAG member's seat is held by them for the duration of thier illness, 
+regardless of how long they're ill.
 
 ### Vacation
+TAG members should post vacation dates, and any other dates where they won't 
+be working, in the vacations channel on slack.
 
-### Unexplained Absense
+### Unexplained absense
+TAG members who stop attending meetings without notice, [risk losing their 
+seat](https://github.com/w3ctag/process/issues/51).
 
 ## Access to systems
 
