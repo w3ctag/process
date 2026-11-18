@@ -115,23 +115,6 @@ We work in the open.
 All of our meetings are minuted, and [the minutes are publicly available](https://github.com/w3ctag/meetings).
 We also try to provide links to relevant meeting minutes in our Github issues, so that the spec authors and other community members can find our discussions.
 
-### Weekly participation
-
-We have three kinds of weeks: design-review weeks (three out of every four weeks) and bigger picture weeks (one out of every four weeks).
-We also have face-to-face weeks, which interrupt the cycle — and are in the next section.
-
-### Each TAG member attends 2 breakouts
-
-We currently have 3 breakout sessions each week to accommodate different time zones. These breakouts happen over video call and are organized via the W3C calendar system. TAG members should try to attend 2 out of the 3.
-
-### Plenary meeting - for all TAG members
-
-In plenary calls, we share readouts of each breakout, identify further discussion or reach consensus and finish/close the issue.
-
-We also triage  new issues, so that the chairs know who to assign to breakouts.
-
-All minutes are taken in Markdown in a single CryptPad document for each week and then checked into GitHub by the end of the week.
-
 ### Work on our own
 
 Each of us should allocate some time (at least three hours beyond the meeting time) for:
@@ -149,17 +132,81 @@ We do use machine translation and proofreading tools,
 and we do use autocomplete to predict the rest of a word or two,
 but we will not generate whole sentences that then have to be checked for accuracy and redundancy.
 
+## Meetings
+
+We rotate our work priorities during a month. We have 3 weeks where we work
+on design reviews, and 1 week where we work on documentation.
+
+### Scheduling and Timezones
+
+We create a new meeting schedule twice a year, usually in March and October
+to coincide with daylight saving adjustments in the Northern Hemisphere. As
+part of this process members will need to update the [scheduling doc]() with
+thier availability and a chair will try to find new times for each meeting.
+
+We have members from across timezones, which can make scheduling difficult.
+We endeavour to make region-specific meetings as workable for everyone as
+possible, however *we can not do the same for plenaries*. Since plenaries
+require everyone's participation, we try to rotate which side of the world is
+most inconvenienced when we create a new meeting schedule. Here are two
+example plenary times, and who would be inconvenienced:
+
+- November to March: Thurs 10pm UST would be inconvenient for those in Europe
+  and Africa.
+- April to October: Weds 2pm UST would be inconvenient for Australia, Asia
+  and parts of North America.
+
+The same group shouldn't be inconvenienced twice in a year, and we try not to
+schedule a plenary past 11pm in anyone's timezone, although it's not always
+possible.
+
+### Each TAG member attends 2 breakouts
+
+We currently have 3 breakout sessions each week to accommodate different time zones. These breakouts happen over video call and are organized via the W3C calendar system. TAG members should attend 2 out of the 3.
+
+### Plenary meeting - for all TAG members
+
+Plenaries are held every other week.
+
+In plenary calls, we:
+- Reach consensus on design review resolutions (particularly for 
+  controversial or high-impact issues).
+- Reach consensus on findings and other documents.
+- Invite spec authors, developers, and others to...[TODO]
+
+### Agenda & Minutes
+
+Agenda items are mostly automated. The TAG Bot looks in specific
+repositories for the "Agenda +" label and compiles a list for the chairs to
+organise. If you want to add an issue to the agenda, make sure it has the
+correct label.
+
+All minutes are taken in Markdown in a single Pad document (pad.w3.org) for 
+each week 
+and then checked into GitHub by the end of the week.
+
+### Documentation Week
+
+Every four weeks we have a dedicated documentation week where all work is
+asynchronous. The purpose of this week is to mmake progress on TAG documents
+and findings.
+
+
 ### Face-to-face (F2F) meetings
 
-Occasionally we will meet face-to-face for three days to work together.
+We have two face-to-face meetings a year, not including TPAC.
 
 We create the agenda for that time at the beginning of the meeting.
 
 We try to alternate continents, to even out the travel for TAG members.
 
-We often host events with the local web community, either in one of the evenings or in the day before or after our meeting.
+At each face-to-face we organise a local developer meetup for developers to
+learn more about the work happening across standards. This usually includes
+a panel with TAG members.
 
-We will make every effort at face-to-face meetings to accommodate remote participation.
+We will make every effort at face-to-face meetings to accommodate remote 
+participation. The dates of the following face to face is
+decided at the current face to face so that members have enough time to plan.
 
 ### Participating in TPAC
 
