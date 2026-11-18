@@ -101,10 +101,6 @@ We occasionally describe findings in plain language with a blog post, like [this
 
 ## How we work
 
-### Key Technical Topics
-
-As of our December 2024 Face-to-face, we are trying to capture and organize our work into key technical topic areas, which are listed on GitHub [in a project board](https://github.com/orgs/w3ctag/projects/5). This is a work in progress.
-
 ### Working with the web community
 
 Most of our interaction with the web community happens on Github, either in our repos or in the repos of features we are helping.
@@ -114,23 +110,6 @@ Each of us also engages directly with the community through social media, bloggi
 We work in the open.
 All of our meetings are minuted, and [the minutes are publicly available](https://github.com/w3ctag/meetings).
 We also try to provide links to relevant meeting minutes in our Github issues, so that the spec authors and other community members can find our discussions.
-
-### Weekly participation
-
-We have three kinds of weeks: design-review weeks (three out of every four weeks) and bigger picture weeks (one out of every four weeks).
-We also have face-to-face weeks, which interrupt the cycle — and are in the next section.
-
-### Each TAG member attends 2 breakouts
-
-We currently have 3 breakout sessions each week to accommodate different time zones. These breakouts happen over video call and are organized via the W3C calendar system. TAG members should try to attend 2 out of the 3.
-
-### Plenary meeting - for all TAG members
-
-In plenary calls, we share readouts of each breakout, identify further discussion or reach consensus and finish/close the issue.
-
-We also triage  new issues, so that the chairs know who to assign to breakouts.
-
-All minutes are taken in Markdown in a single CryptPad document for each week and then checked into GitHub by the end of the week.
 
 ### Work on our own
 
@@ -149,23 +128,111 @@ We do use machine translation and proofreading tools,
 and we do use autocomplete to predict the rest of a word or two,
 but we will not generate whole sentences that then have to be checked for accuracy and redundancy.
 
+## Meetings
+
+We rotate our work priorities during a month. We have 3 weeks where we work
+on design reviews, and 1 week where we work on documentation.
+
+### Scheduling and Timezones
+
+We create a new meeting schedule twice a year, usually in March and October
+to coincide with daylight saving adjustments in the Northern Hemisphere. As
+part of this process members will need to update the [scheduling doc](https://tag-github-bot.w3.org/util/scheduling) with
+thier availability and a chair will try to find new times for each meeting.
+
+We have members from across timezones, which can make scheduling difficult.
+We endeavour to make region-specific meetings as workable for everyone as
+possible, however *we can not do the same for plenaries*. Since plenaries
+require everyone's participation, we try to rotate which side of the world is
+most inconvenienced when we create a new meeting schedule. Here are two
+example plenary times, and who would be inconvenienced:
+
+- November to March: Thurs 10pm UST would be inconvenient for those in Europe
+  and Africa.
+- April to October: Weds 2pm UST would be inconvenient for Australia, Asia
+  and parts of North America.
+
+The same group shouldn't be inconvenienced twice in a year, and we try not to
+schedule a plenary past 11pm in anyone's timezone, although it's not always
+possible.
+
+### Each TAG member attends 2 breakouts
+
+We currently have 3 breakout sessions each week to accommodate different time zones. 
+- Pacific (for Asia, North America and Australia)
+- Atlantic (for Europe, Africa and North America)
+- Eurasia (for Australia, Africa, Europe and Asia)
+
+These breakouts happen over video call and are organized via the W3C calendar system. TAG members should attend 2 out of the 3.
+
+### Plenary meeting - for all TAG members
+
+Plenaries are held every other week.
+
+In plenary calls, we:
+- Reach consensus on design review resolutions (particularly for 
+  controversial or high-impact issues).
+- Reach consensus on findings and other documents.
+- Invite spec authors, developers, and others to help us understand problem 
+  areas, use cases and specifics of a proposed design.
+
+### Agenda & Minutes
+
+Agenda items are mostly automated. The TAG Bot looks in specific
+repositories for the "Agenda +" label and compiles a list for the chairs to
+organise. If you want to add an issue to the agenda, make sure it has the
+correct label.
+
+All minutes are taken in Markdown in a single Pad document (pad.w3.org) for 
+each week 
+and then checked into GitHub by the end of the week.
+
+### Documentation Week
+
+Every four weeks we have a dedicated documentation week where all work is
+asynchronous. The purpose of this week is to mmake progress on TAG documents
+and findings.
+
 ### Face-to-face (F2F) meetings
 
-Occasionally we will meet face-to-face for three days to work together.
+We have two face-to-face meetings a year, not including TPAC.
 
 We create the agenda for that time at the beginning of the meeting.
 
 We try to alternate continents, to even out the travel for TAG members.
 
-We often host events with the local web community, either in one of the evenings or in the day before or after our meeting.
+At each face-to-face we organise a local developer meetup for developers to
+learn more about the work happening across standards. This usually includes
+a panel with TAG members.
 
-We will make every effort at face-to-face meetings to accommodate remote participation.
+We will make every effort at face-to-face meetings to accommodate remote 
+participation. The dates of the following face to face is
+decided at the current face to face so that members have enough time to plan.
 
 ### Participating in TPAC
 
 We all try to attend TPAC, so that we directly spend time with working groups and interest groups, to learn what they are up to and to provide more immediate feedback and support.
 
 We normally have brief TAG meetings, usually at the beginning and the end of the week, so that we can coordinate what we will attend and try to cover as many groups as possible.
+
+## Time off
+
+### Sick leave
+TAG members should let the group, chairs or team contact know if they will 
+be missing meetings due to illness. A one line message in Slack is enough. 
+If members are ill for an extended period, the chairs or team contact should 
+be informed.
+
+A TAG member's seat is held by them for the duration of their illness, 
+regardless of how long they're ill.
+
+### Vacation
+TAG members should post vacation dates, and any other dates where they won't 
+be working, in the vacations channel on slack.
+
+### Unexplained absence
+TAG members who stop attending meetings without notice, [risk losing their 
+seat](https://github.com/w3ctag/process/issues/51).
 
 ## Access to systems
 
