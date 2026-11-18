@@ -138,7 +138,7 @@ on design reviews, and 1 week where we work on documentation.
 
 We create a new meeting schedule twice a year, usually in March and October
 to coincide with daylight saving adjustments in the Northern Hemisphere. As
-part of this process members will need to update the [scheduling doc]() with
+part of this process members will need to update the [scheduling doc](https://w3ctag.slack.com/archives/C089QPD49SA/p1789067749949819) with
 thier availability and a chair will try to find new times for each meeting.
 
 We have members from across timezones, which can make scheduling difficult.
