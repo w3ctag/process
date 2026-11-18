@@ -167,6 +167,15 @@ We all try to attend TPAC, so that we directly spend time with working groups an
 
 We normally have brief TAG meetings, usually at the beginning and the end of the week, so that we can coordinate what we will attend and try to cover as many groups as possible.
 
+## Time off
+
+### Sick Leave
+
+
+### Vacation
+
+### Unexplained Absense
+
 ## Access to systems
 
 New TAG members need access to a bunch of systems:
