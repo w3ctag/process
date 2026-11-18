@@ -137,7 +137,7 @@ on design reviews, and 1 week where we work on documentation.
 
 We create a new meeting schedule twice a year, usually in March and October
 to coincide with daylight saving adjustments in the Northern Hemisphere. As
-part of this process members will need to update the [scheduling doc](https://w3ctag.slack.com/archives/C089QPD49SA/p1789067749949819) with
+part of this process members will need to update the [scheduling doc](https://tag-github-bot.w3.org/util/scheduling) with
 thier availability and a chair will try to find new times for each meeting.
 
 We have members from across timezones, which can make scheduling difficult.
@@ -223,14 +223,14 @@ be missing meetings due to illness. A one line message in Slack is enough.
 If members are ill for an extended period, the chairs or team contact should 
 be informed.
 
-A TAG member's seat is held by them for the duration of thier illness, 
+A TAG member's seat is held by them for the duration of their illness, 
 regardless of how long they're ill.
 
 ### Vacation
 TAG members should post vacation dates, and any other dates where they won't 
 be working, in the vacations channel on slack.
 
-### Unexplained absense
+### Unexplained absence
 TAG members who stop attending meetings without notice, [risk losing their 
 seat](https://github.com/w3ctag/process/issues/51).
 
