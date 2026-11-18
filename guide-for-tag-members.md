@@ -158,7 +158,12 @@ possible.
 
 ### Each TAG member attends 2 breakouts
 
-We currently have 3 breakout sessions each week to accommodate different time zones. These breakouts happen over video call and are organized via the W3C calendar system. TAG members should attend 2 out of the 3.
+We currently have 3 breakout sessions each week to accommodate different time zones. 
+- Pacific (for Asia, North America and Australia)
+- Atlantic (for Europe, Africa and North America)
+- Eurasia (for Australia, Africa, Europe and Asia)
+
+These breakouts happen over video call and are organized via the W3C calendar system. TAG members should attend 2 out of the 3.
 
 ### Plenary meeting - for all TAG members
 
@@ -187,7 +192,6 @@ and then checked into GitHub by the end of the week.
 Every four weeks we have a dedicated documentation week where all work is
 asynchronous. The purpose of this week is to mmake progress on TAG documents
 and findings.
-
 
 ### Face-to-face (F2F) meetings
 
